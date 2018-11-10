@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Bee Guide</title>
+    <!--font stack-->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Rokkitt" rel="stylesheet">
+    <!--bootstrap cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--my additional styles-->
+    <link rel="stylesheet" href="styles/added_styles.css">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>A Quick Guide to Bees</h1>
+      <h2>By Rosmery Izaguirre</h2>
+    </header>
+      <p id="intro">This quick guide will show you pictures of 4 different kinds of bees found in the world. Click the buttons to toggle the bee you want to see. This demonstrates how I learned to toggle images using JQuery.</p>
+
+    <div class="row">
+
+            <div class="col-sm-12 form-group"> <!--form-group adds spacing-->
+              <p>Honey bees are known for their large colonies, their colonial nests made from wax and their production and storage of honey.</p>
+              <p><a href="https://commons.wikimedia.org/wiki/File:Apis_mellifera_flying2.jpg">Source</a> By Muhammad Mahdi Karim [GFDL 1.2 (http://www.gnu.org/licenses/old-licenses/fdl-1.2.html)], from Wikimedia Commons</p>
+              <button id="toggle_honey" type="button" class="btn btn-warning">Toggle Honey Bee</button>
+              <img id="honeybee" class="hide_img" class="img-fluid" src="images/honeybee.jpg" alt="Honey bee with pollen basket">
+            </div> <!-- end column -->
+
+            <div class="col-sm-12 form-group"> <!--form-group adds spacing-->
+              <p>Bumblebees gather and store nectar in their nests and gather pollen to feed their young.</p>
+              <p><a href="https://commons.wikimedia.org/wiki/File:Bumblebee_October_2007-3a.jpg">Source</a> By Alvesgaspar [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0  (https://creativecommons.org/licenses/by-sa/3.0)], from Wikimedia Commons</p>
+              <button id="toggle_bumble" type="button" class="btn btn-warning">Toggle Bumblebee</button>
+              <img id="bumblebee" class="hide_img" class="img-fluid" src="images/bumblebee.jpg" alt="Buff-tailed bumblebee">
+            </div> <!-- end column -->
+
+            <div class="col-sm-12 form-group"> <!--form-group adds spacing-->
+              <p>Mining bees build nests in underground tunnels and may live in communities with hundreds, or thousands, of tunnels.</p>
+              <p><a href="https://commons.wikimedia.org/wiki/File:Bee_February_2008-3.jpg">Source</a> By Alvesgaspar [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0  (https://creativecommons.org/licenses/by-sa/3.0)], from Wikimedia Commons</p>
+              <button id="toggle_mining" type="button" class="btn btn-warning">Toggle Mining Bee</button>
+              <img id="mining" class="hide_img" class="img-fluid" src="images/mining_bee.jpg" alt="Mining bee on a flower">
+            </div> <!-- end column -->
+
+            <div class="col-sm-12 form-group"> <!--form-group adds spacing-->
+              <p>Carpenter bees bore into wood leaving circular holes to create tunnels. Carpenter bees are not social insects and instead build individual nests in trees or buildings.</p>
+              <p><a href="https://commons.wikimedia.org/wiki/File:Southern_Carpenter_Bee_(Xylocopa_micans)_%E2%99%80_(7995162522).jpg">Source</a> By Bob Peterson from North Palm Beach, Florida, Planet Earth! [CC BY-SA 2.0  (https://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons</p>
+              <button id="toggle_carpenter" type="button" class="btn btn-warning">Toggle Carpenter Bee</button>
+              <img id="carpenter" class="hide_img" class="img-fluid" src="images/carpenter_bee.jpg" alt="Carpenter bee nectaring on a flower">
+            </div> <!-- end column -->
+
+    </div> <!-- end row -->
+  </div><!-- container -->
+  <!--added jquery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256- hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!--javascript file-->
+  <script src="js/main.js"></script>
+</body>
+</html>
